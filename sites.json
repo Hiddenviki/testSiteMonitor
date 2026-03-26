@@ -1,0 +1,40 @@
+{
+  "timezone": "Europe/Moscow",
+  "sites": [
+    {
+      "name": "sberbank.ru",
+      "url": "https://www.sberbank.ru/",
+      "expect": "Сбер"
+    },
+    {
+      "name": "tbank.ru",
+      "url": "https://www.tbank.ru/",
+      "expect": "Т-Банк"
+    },
+    {
+      "name": "alfabank.ru",
+      "url": "https://alfabank.ru/",
+      "expect": "Альфа"
+    },
+    {
+      "name": "vtb.ru",
+      "url": "https://www.vtb.ru/",
+      "expect": "ВТБ"
+    },
+    {
+      "name": "ingos.ru",
+      "url": "https://www.ingos.ru/",
+      "expect": "Ингосстрах"
+    }
+  ],
+  "probe": {
+    "timeout_seconds": 10,
+    "connect_timeout_seconds": 5,
+    "interval_seconds": 60,
+    "user_agent": "site-monitor-test-task/1.0",
+    "confirm_down_after_consecutive_failures": 2,
+    "confirm_up_after_consecutive_successes": 1,
+    "max_response_bytes_to_check": 200000
+  }
+}
+
