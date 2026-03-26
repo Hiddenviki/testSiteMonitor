@@ -1,19 +1,9 @@
-2026-03-26 16:13:20,513 INFO Monitoring started. Sites: 5. Interval: 60.0s
-2026-03-26 16:14:37,504 ERROR alfabank.ru – 2026-03-26 16:14:34 MSK – BadStatus
-2026-03-26 16:14:41,896 ERROR vtb.ru – 2026-03-26 16:14:38 MSK – ContentMismatchError
-2026-03-26 16:16:50,455 ERROR ingos.ru – 2026-03-26 16:16:49 MSK – ContentMismatchError
-2026-03-26 16:22:46,977 ERROR tbank.ru – 2026-03-26 16:22:41 MSK – ConnectionTimeoutError
-2026-03-26 16:29:07,393 INFO Monitoring started. Sites: 5. Interval: 60.0s
-2026-03-26 16:31:22,880 INFO Monitoring started. Sites: 5. Interval: 60.0s
-2026-03-26 16:49:47,658 INFO Monitoring started. Sites: 5. Interval: 60.0s
-2026-03-26 16:52:05,126 INFO Monitoring started. Sites: 5. Interval: 60.0s
-2026-03-26 16:58:46,273 INFO Monitoring started. Sites: 5. Interval: 60.0s
-2026-03-26 17:00:38,433 INFO Monitoring started. Sites: 5. Interval: 60.0s
-2026-03-26 17:01:41,913 INFO Monitoring started. Sites: 5. Interval: 60.0s
-2026-03-26 17:02:56,935 ERROR alfabank.ru – 2026-03-26 17:02:54 MSK – BadStatus
-2026-03-26 17:02:59,739 ERROR ingos.ru – 2026-03-26 17:02:56 MSK – ContentMismatchError
-2026-03-26 17:03:04,856 ERROR tbank.ru – 2026-03-26 17:02:59 MSK – ConnectionTimeoutError
-2026-03-26 17:03:08,222 ERROR vtb.ru – 2026-03-26 17:03:04 MSK – ContentMismatchError
-2026-03-26 17:07:09,449 INFO Monitoring started. Sites: 5. Interval: 60.0s
-2026-03-26 17:11:57,418 INFO ingos.ru – 2026-03-26 17:11:56 MSK
-2026-03-26 17:14:25,539 ERROR ingos.ru – 2026-03-26 17:14:24 MSK – ContentMismatchError
+2026-03-26 18:41:25,069 INFO Monitoring started. Sites: 5. Interval: 10.0s
+2026-03-26 18:41:48,113 ERROR alfabank.ru – 2026-03-26 18:41:48 MSK – BadStatus
+2026-03-26 18:41:48,565 ERROR ingos.ru – 2026-03-26 18:41:48 MSK – ContentMismatchError
+2026-03-26 18:41:53,659 ERROR tbank.ru – 2026-03-26 18:41:48 MSK – ConnectionTimeoutError
+2026-03-26 18:41:56,894 ERROR vtb.ru – 2026-03-26 18:41:53 MSK – ContentMismatchError
+2026-03-26 18:45:20,266 INFO ingos.ru – 2026-03-26 18:45:19 MSK
+2026-03-26 18:46:01,402 ERROR ingos.ru – 2026-03-26 18:46:00 MSK – ContentMismatchError
+2026-03-26 18:48:11,735 INFO ingos.ru – 2026-03-26 18:48:11 MSK
+2026-03-26 18:48:52,909 ERROR ingos.ru – 2026-03-26 18:48:52 MSK – ContentMismatchError

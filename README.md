@@ -21,7 +21,7 @@
 ## Установка
 
 ```bash
-python3 -m venv .venv
+python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -31,29 +31,28 @@ pip install -r requirements.txt
 Непрерывно (период опроса задаётся в `sites.json`):
 
 ```bash
-python3 -m site_monitor monitor
+python -m site_monitor monitor
 ```
 
 Одна итерация (удобно для быстрой проверки):
 
 ```bash
-python3 -m site_monitor monitor --once
+python -m site_monitor monitor --once
 ```
 
 ## Формирование отчёта за сутки
 
 ```bash
-python3 -m site_monitor report --date 2026-03-26
+python -m site_monitor report --date 2026-03-26
 ```
 
 Опционально сохранить CSV:
 
 ```bash
-python3 -m site_monitor report --date 2026-03-26 --csv reports/2026-03-26.csv
+python -m site_monitor report --date 2026-03-26 --csv reports/2026-03-26.csv
 ```
 
 ## Примечания
 
 - Часовой пояс берётся из `sites.json` (по умолчанию `Europe/Moscow`).
 - Uptime считается как \((\text{время суток} - \text{downtime}) / \text{время суток} * 100\) и выводится с точностью до 2 знаков.
-
