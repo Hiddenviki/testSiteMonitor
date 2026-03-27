@@ -21,9 +21,9 @@
 ## Установка
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Запуск мониторинга
@@ -31,25 +31,25 @@ pip install -r requirements.txt
 Непрерывно (период опроса задаётся в `sites.json`):
 
 ```bash
-python -m site_monitor monitor
+python3 -m site_monitor monitor
 ```
 
 Одна итерация (удобно для быстрой проверки):
 
 ```bash
-python -m site_monitor monitor --once
+python3 -m site_monitor monitor --once
 ```
 
 ## Формирование отчёта за сутки
 
 ```bash
-python -m site_monitor report --date 2026-03-26
+python3 -m site_monitor report --date 2026-03-26
 ```
 
 Опционально сохранить CSV:
 
 ```bash
-python -m site_monitor report --date 2026-03-26 --csv reports/2026-03-26.csv
+python3 -m site_monitor report --date 2026-03-26 --csv reports/2026-03-26.csv
 ```
 
 ## Примечания
